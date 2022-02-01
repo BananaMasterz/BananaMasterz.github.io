@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #E3EDFD;
+    background-color: #ffffff;
 }
 
 .center {
@@ -25,7 +25,7 @@ body {
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color: #333;
+  background-color: #147fee;
 
   border-radius: 100%;
   display: inline-block;
