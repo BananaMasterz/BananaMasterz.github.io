@@ -1,11 +1,11 @@
 {
-    "name": "pre_post_form",
-    "short_name": "pre_post_form",
+    "name": "pre_post_form_2",
+    "short_name": "pre_post_form_2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Pre post form",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
