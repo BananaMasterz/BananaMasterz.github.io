@@ -32,34 +32,38 @@
     <title>pre_post_form_2</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="banana_loader.css">
+    <link rel="stylesheet" type="text/css" href="banana_loading_bar.css">
 
     <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "306033766";
+    const serviceWorkerVersion = "544316743";
+
 
     </script>
     <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
 </head>
 <body>
-
-<div class='banana_loader'>
-    <div class='circle'>
-        <div class='inner'></div>
-    </div>
-    <div class='circle'>
-        <div class='inner'></div>
-    </div>
-    <div class='circle'>
-        <div class='inner'></div>
-    </div>
-    <div class='circle'>
-        <div class='inner'></div>
-    </div>
-    <div class='circle'>
-        <div class='inner'></div>
-    </div>
+<div class="progress">
+    <div class="progress-value"></div>
 </div>
+<!--<div class='banana_loader'>-->
+<!--    <div class='circle'>-->
+<!--        <div class='inner'></div>-->
+<!--    </div>-->
+<!--    <div class='circle'>-->
+<!--        <div class='inner'></div>-->
+<!--    </div>-->
+<!--    <div class='circle'>-->
+<!--        <div class='inner'></div>-->
+<!--    </div>-->
+<!--    <div class='circle'>-->
+<!--        <div class='inner'></div>-->
+<!--    </div>-->
+<!--    <div class='circle'>-->
+<!--        <div class='inner'></div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <script>
     window.addEventListener('load', function(ev) {
@@ -75,6 +79,7 @@
         }
       });
     });
+
 
 </script>
 </body>
